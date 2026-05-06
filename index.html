@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nft</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,6 +30,30 @@
             >
           </li>
         </ul>
+
+        <div class="menu">
+          <svg
+            viewBox="0 0 24 24"
+            fill="#fff"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M4 6H20M4 12H20M4 18H20"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+        </div>
       </nav>
     </header>
 
@@ -47,13 +72,16 @@
           >
         </div>
       </div>
-      <div class="image">
-        <img src="asset/Image Placeholder.png" alt="" class="img" />
-        <div class="image-content">
-          <p class="paragraph">Space walking</p>
-          <p class="paragraphs">
-            <img src="asset/Avatar.png" alt="" class="image" /> Animakid
-          </p>
+
+      <div class="image-container">
+        <div class="image">
+          <img src="asset/Image Placeholder.png" alt="" class="img" />
+          <div class="image-content">
+            <p class="paragraph">Space walking</p>
+            <p class="paragraphs">
+              <img src="asset/Avatar.png" alt="" class="image" /> Animakid
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -65,16 +93,24 @@
           Checkout Our Weekly Updated Trending Collection.
         </p>
       </div>
+
       <div class="images">
-        <div>
+        <div class="img">
           <img src="asset/Primary Photo Placeholder.png" alt="" class="img" />
           <div class="image-contanier">
             <img src="asset/Secondary Photo Placeholder.png" alt="" />
             <img src="asset/Secondary Photo Placeholder (1).png" alt="" />
             <h2>1025+</h2>
           </div>
+          <div class="image-contents">
+            <p class="paragraph">DSGN Animals</p>
+            <p class="paragraphs">
+              <img src="asset/Avatar (1).png" alt="" class="image" /> MrFox
+            </p>
+          </div>
         </div>
-        <div>
+
+        <div class="img">
           <img
             src="asset/Primary Photo Placeholder (1).png"
             alt=""
@@ -85,8 +121,15 @@
             <img src="asset/Secondary Photo Placeholder (3).png" alt="" />
             <h2>1025+</h2>
           </div>
+          <div class="image-contents">
+            <p class="paragraph">Magic Mushrooms</p>
+            <p class="paragraphs">
+              <img src="asset/Avatar (2).png" alt="" class="image" /> Shroomie
+            </p>
+          </div>
         </div>
-        <div>
+
+        <div class="img c1">
           <img
             src="asset/Primary Photo Placeholder (2).png"
             alt=""
@@ -96,6 +139,13 @@
             <img src="asset/Secondary Photo Placeholder (4).png" alt="" />
             <img src="asset/Secondary Photo Placeholder (5).png" alt="" />
             <h2>1025+</h2>
+          </div>
+          <div class="image-contents">
+            <p class="paragraph">Disco Machines</p>
+            <p class="paragraphs">
+              <img src="asset/Avatar (3).png" alt="" class="image" />
+              BeKind2Robots
+            </p>
           </div>
         </div>
       </div>
@@ -114,7 +164,7 @@
         </div>
       </div>
 
-      <div class="images-content">
+      <div class="images-content c2">
         <div class="image-containers">
           <div class="number">1</div>
           <img src="asset/1.png" alt="" class="image" />
@@ -128,12 +178,14 @@
           <h2>Digilab</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
+
         <div class="image-containers">
           <div class="number">3</div>
           <img src="asset/Asset 12 2.png" alt="" class="image" />
           <h2>Gravityone</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
+
         <div class="image-containers">
           <div class="number">4</div>
           <img src="asset/3.png" alt="" class="image" />
@@ -156,13 +208,13 @@
           <h2>mr fox</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
-        <div class="image-containers">
+        <div class="image-containers c1">
           <div class="number">7</div>
           <img src="asset/f.png" alt="" class="image" />
           <h2>Shroomie</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
-        <div class="image-containers">
+        <div class="image-containers c1">
           <div class="number">8</div>
           <img src="asset/g.png" alt="" class="image" />
           <h2>robotica</h2>
@@ -171,26 +223,26 @@
       </div>
 
       <div class="images-content">
-        <div class="image-containers">
+        <div class="image-containers c1">
           <div class="number">9</div>
           <img src="asset/l.png" alt="" class="image" />
           <h2>RustyRobot</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
 
-        <div class="image-containers">
+        <div class="image-containers c1">
           <div class="number">10</div>
           <img src="asset/k.png" alt="" class="image" />
           <h2>animakid</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
-        <div class="image-containers">
+        <div class="image-containers c1">
           <div class="number">11</div>
           <img src="asset/j.png" alt="" class="image" />
           <h2>Dotgu</h2>
           <p><span>Total Sales:</span> 34.53 ETH</p>
         </div>
-        <div class="image-containers">
+        <div class="image-containers c1">
           <div class="number">12</div>
           <img src="asset/h.png" alt="" class="image" />
           <h2>Ghiblier</h2>
@@ -268,7 +320,41 @@
       </div>
     </section>
 
-    <section class="info"></section>
+    <section class="info">
+      <div class="info-container">
+        <div class="info-content">
+          <div class="info-image-container">
+            <img src="asset/F.png" alt="" class="info-image" />
+            <p>Shroomie</p>
+          </div>
+          <h1>Magic Mashrooms</h1>
+          <a href="#"
+            ><img src="asset/Eye.png" alt="" class="info-icon" /> See NFT</a
+          >
+        </div>
+
+        <div class="inform-content">
+          <div><p>Auction ends in:</p></div>
+
+          <div class="inform-text">
+            <div class="inform-image-container">
+              <h1>59</h1>
+              <p>Hours</p>
+            </div>
+
+            <div class="inform-image-container">
+              <h1>: 59</h1>
+              <p>Minutes</p>
+            </div>
+
+            <div class="inform-image-container">
+              <h1>: 59</h1>
+              <p>Seconds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="marketplace-container">
       <div class="textest">
@@ -317,14 +403,16 @@
             <h1>Join Our Weekly Digest</h1>
             <h5>Get exculsive promotions & updates straight to your inbox.</h5>
             <form class="cta-form" action="#">
-              <div>
+              <div class="cta-action">
                 <input
                   id="email"
                   type="email"
                   placeholder="Enter your email here"
                   required=""
-                  aria-label="sod"
                 />
+                <a href="#" class="cta-button"
+                  ><img src="asset/EnvelopeSimple.png" alt="" /> Subscribe</a
+                >
               </div>
             </form>
           </div>
@@ -354,14 +442,14 @@
           <h1>Join Our Weekly Digest</h1>
           <p>Get exculsive promotions & updates straight to your inbox.</p>
           <form class="cta-form" action="#">
-            <div>
+            <div class="cta-action">
               <input
                 id="email"
                 type="email"
                 placeholder="Enter your email here"
                 required=""
-                aria-label="sod"
               />
+              <a href="#" class="cta-buttons">Subscribe</a>
             </div>
           </form>
         </div>
@@ -371,5 +459,6 @@
         <p>@ NFT Market, Use this template freely.</p>
       </div>
     </footer>
+    *\
   </body>
 </html>
