@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #2b2b2b;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  padding: 3rem 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main-nav-links {
+  background-color: #a259ff;
+  padding: 1.5rem 2rem;
+  border-radius: 1.3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.icon {
+  width: 1.6rem;
+  margin-right: 0.5rem;
+}
+
+.icons {
+  width: 2.2rem;
+  margin-right: 0.9rem;
+}
+
+.menu {
+  display: none;
+}
+
+.footer-content {
+  justify-content: center;
+  display: flex;
+  gap: 10rem;
+  background-color: #3b3b3b;
+  padding: 2rem 0rem;
+  padding-top: 4rem;
+}
+
+.footer-text h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-text p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #858584;
+}
+
+.footer-ends {
+  justify-content: center;
+  gap: 10rem;
+  background-color: #3b3b3b;
+  padding: 2rem 0rem;
+}
+
+.footer-ends hr {
+  margin: 0rem 15rem;
+  color: #858584;
+}
+
+.footer-ends p {
+  padding-left: 15rem;
+  font-size: 13px;
+  margin-top: 2rem;
+  color: #858584;
+}
+
+.about {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.about img {
+  width: 50rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 12px;
+  margin: 0.5rem 0rem;
+  border-radius: 3rem;
+  padding: 1.5rem 2rem;
+}
+
+.cta-forms input,
+.cta-forms select {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 12px;
+  margin: 0.5rem 0rem;
+  border-radius: 3rem;
+  padding: 1.5rem 2rem;
+}
+
+.cta-form {
+  width: 35rem;
+  margin-bottom: 6rem;
+}
+
+.cta-forms {
+  width: 35rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding: 0rem 9rem;
+}
+
+.container h2 {
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+.cta-buttons {
+  background-color: #a259ff;
+  padding: 1.5rem 110px;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
