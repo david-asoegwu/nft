@@ -411,3 +411,233 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 2rem 4rem;
+  }
+
+  .about .about-contents {
+    padding: 4rem;
+    gap: 4rem;
+  }
+
+  .about .about-content {
+    width: 100%;
+    max-width: 55rem;
+  }
+
+  .top-rank-container {
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .footer-content {
+    gap: 4rem;
+    padding: 4rem;
+  }
+
+  .footer-ends hr {
+    margin: 0 4rem;
+  }
+
+  .footer-ends p {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* HEADER */
+
+  .header {
+    padding: 1.6rem 2rem;
+  }
+
+  .main-nav-list {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .menu svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* HERO IMAGE */
+
+  .about .about-img {
+    height: 35rem;
+    object-fit: cover;
+  }
+
+  /* CONTENT */
+
+  .about .about-contents {
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 3rem;
+  }
+
+  .about .about-content {
+    width: 100%;
+    order: 2;
+  }
+
+  /* AUCTION CARD */
+
+  .inform-text {
+    width: 100%;
+    max-width: 32rem;
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .inform-header {
+    justify-content: center;
+  }
+
+  /* TAGS */
+
+  .about-tags {
+    flex-wrap: wrap;
+  }
+
+  /* SECTION TITLE */
+
+  .top-rank-container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-alidisplay: none;
+    gn: center;
+  }
+
+  .top-rank-container h1 {
+    font-size: 3rem;
+  }
+
+  /* NFT CARDS */
+
+  .tops-rank-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .top-rank-content:nth-last-child(3) {
+    display: none;
+  }
+
+  .top-rank-content {
+    width: 100%;
+    max-width: 32rem;
+  }
+
+  .top-rank-img {
+    width: 100%;
+    display: block;
+  }
+
+  .c4 {
+    gap: 1rem;
+  }
+
+  /* FOOTER */
+
+  .footer-content {
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 3rem;
+  }
+
+  .cta-forms {
+    width: 100%;
+  }
+
+  .footer-ends hr {
+    margin: 0 2rem;
+  }
+
+  .footer-ends p {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.4rem;
+  }
+
+  .icons {
+    width: 1.8rem;
+  }
+
+  .about .about-img {
+    height: 28rem;
+  }
+
+  .c2 h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .c2 p {
+    font-size: 1.6rem;
+  }
+
+  .heading,
+  .headings {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1.6rem !important;
+    line-height: 1.8 !important;
+  }
+
+  .inform-text {
+    max-width: 100%;
+  }
+
+  .inform-image-container h1 {
+    font-size: 3rem;
+  }
+
+  .inform-image-container p {
+    font-size: 1.2rem;
+  }
+
+  .top-rank-container {
+    align-items: stretch;
+    text-align: left;
+  }
+
+  .top-rank-container a {
+    text-align: center;
+  }
+
+  .top-rank-content {
+    max-width: 70%;
+  }
+
+  .top-rank-img {
+    max-width: 40rem;
+  }
+
+  .about-btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+
+  .cta-forms input {
+    font-size: 1.4rem;
+  }
+}

@@ -179,4 +179,79 @@ body {
   text-align: center;
   background-color: #3b3b3b;
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.ca-img {
+  width: 2rem;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 2rem;
+  }
+
+  .main-nav-list {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url("assets/menu.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .container {
+    padding: 0rem 2rem;
+  }
+
+  .container h2 {
+    font-size: 2.5rem;
+  }
+
+  .container p {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    width: 100%;
+  }
+  .btn-container {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-ends {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-ends hr {
+    margin: 2rem 0rem;
+  }
+
+  .footer-ends p {
+    padding: 0rem;
+  }
 }
