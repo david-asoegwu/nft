@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Blog</title>
+    <link rel="stylesheet" href="style2.css" />
   </head>
-  <link rel="stylesheet" href="style2.css" />
+
   <body>
     <header class="header">
-      <h1>
+      <h1 class="fixed-sm">
         <img src="asset/Storefront.svg" alt="" class="icons" />NFT Marketplace
       </h1>
 
@@ -26,58 +27,62 @@
           </li>
         </ul>
 
-        <div class="menu">
+        <!-- Hamburger button: JavaScript uses this .menu class to open/close the mobile nav list. -->
+        <button
+          type="button"
+          class="menu fixed-sm"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false">
           <svg
             viewBox="0 0 24 24"
             fill="#fff"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g
               id="SVGRepo_tracerCarrier"
               stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
+              stroke-linejoin="round"></g>
             <g id="SVGRepo_iconCarrier">
               <path
                 d="M4 6H20M4 12H20M4 18H20"
                 stroke="#fff"
                 stroke-width="2"
                 stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
+                stroke-linejoin="round"></path>
             </g>
           </svg>
-        </div>
+        </button>
       </nav>
     </header>
 
-    <section class="about">
-      <figure>
-        <img src="asset/12.png" alt="About Us" class="about-img" />
-      </figure>
-      <div class="container">
-        <h2>Connect Wallet</h2>
-        <p>
-          Choose a wallet you want to connect. There are several wallet
-          providers.
-        </p>
+    <main>
+      <section class="about">
+        <figure>
+          <img src="asset/12.png" alt="About Us" class="about-img" />
+        </figure>
+        <div class="container">
+          <h2>Connect Wallet</h2>
+          <p>
+            Choose a wallet you want to connect. There are several wallet
+            providers.
+          </p>
 
-        <div class="btn-container">
-          <a href="#" class="btn"
-            ><img src="asset/Metamask.png" alt="" />Metamask</a
-          >
+          <div class="btn-container">
+            <a href="#" class="btn"
+              ><img src="asset/Metamask.png" alt="" />Metamask</a
+            >
 
-          <a href="#" class="btn"
-            ><img src="asset/WalletConnect.png" alt="" />Wallet Connect</a
-          >
+            <a href="#" class="btn"
+              ><img src="asset/WalletConnect.png" alt="" />Wallet Connect</a
+            >
 
-          <a href="#" class="btn"
-            ><img src="asset/Coinbase.png" alt="" />Coinbase</a
-          >
+            <a href="#" class="btn"
+              ><img src="asset/Coinbase.png" alt="" />Coinbase</a
+            >
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer>
       <div class="footer-content">
@@ -106,8 +111,7 @@
                 id="email"
                 type="email"
                 placeholder="Enter your email here"
-                required=""
-              />
+                required="" />
             </div>
           </form>
         </div>
@@ -118,5 +122,6 @@
         <p>@ NFT Market, Use this template freely.</p>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

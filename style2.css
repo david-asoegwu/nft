@@ -69,6 +69,10 @@ body {
 
 .menu {
   display: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
 }
 
 .footer-content {
@@ -195,13 +199,76 @@ body {
   height: 50vh;
 }
 
+/* RESPONSIVE DESIGN FOR HAMBUGER MENU */
+
 @media (max-width: 768px) {
   .header {
-    padding: 2rem;
+    position: relative;
   }
 
+  main,
+  footer {
+    transition: filter 0.3s ease;
+  }
+
+  /* This class is added by JavaScript when the hamburger menu is active. */
+  body.nav-active main,
+  body.nav-active footer {
+    filter: blur(0.4rem);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* Closed mobile menu: keep display none so links are hidden and not clickable. */
   .main-nav-list {
     display: none;
+    position: fixed;
+    top: 7rem;
+    right: 0;
+    z-index: 10;
+    width: min(100vw, 40rem);
+    height: 90vh;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #3b3b3b;
+    border: 1px solid #858584;
+    border-radius: 0.8rem;
+    box-shadow: 0 1.2rem 3rem rgba(0, 0, 0, 0.35);
+  }
+
+  /*
+    Safe closed-menu styling note:
+    Put menu panel design here, but do not change display:none unless you also
+    update .nav-open below. Closed-menu animations should use opacity/transform
+    with pointer-events disabled so hidden links cannot be clicked.
+  */
+
+  /* Open mobile menu: JavaScript adds this class when the hamburger is clicked. */
+  .main-nav-list.nav-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .fixed-sm {
+    position: fixed;
+    top: 2rem;
+    z-index: 20;
+    background-color: #3b3b3b;
+  }
+
+  .header h1.fixed-sm {
+    left: 2rem;
+    padding: 1rem 1.2rem;
+    border-radius: 0.8rem;
+  }
+
+  .menu.fixed-sm {
+    right: 2rem;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
   }
 
   .menu {
@@ -311,7 +378,7 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    padding: 2rem;
+    padding: 4rem;
   }
 
   .main-nav-list {
