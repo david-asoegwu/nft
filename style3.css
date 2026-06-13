@@ -226,3 +226,195 @@ body {
 .ranking-header-content p {
   font-size: 1.3rem;
 }
+
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 3rem 4rem;
+  }
+
+  .ranking-title,
+  .ranking-description {
+    padding-left: 4rem;
+  }
+
+  .ranking {
+    padding: 3rem 4rem;
+  }
+
+  .ranking-header {
+    margin: 0 4rem 2rem;
+  }
+
+  .ranking-content {
+    padding: 1.5rem 3rem;
+  }
+
+  .ranking-header-contents {
+    gap: 8rem;
+    padding-right: 2rem;
+  }
+
+  .footer-content {
+    gap: 5rem;
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-nav-list {
+    display: none;
+  }
+
+  .main-nav-link{
+    font-size: 1.5rem;
+  }
+
+  .menu {
+    display: block;
+    width: 3rem;
+    cursor: pointer;
+  }
+
+  .menu svg {
+    width: 100%;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  .ranking-title,
+  .ranking-description {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .ranking-title {
+    font-size: 4rem;
+  }
+
+  .ranking-description {
+    line-height: 1.5;
+  }
+
+  .ranking {
+    padding: 2rem;
+  }
+
+  .ranking-header {
+    margin: 0 2rem 2rem;
+    padding: 2rem;
+  }
+
+  .ranking-header-content {
+    padding-left: 0;
+  }
+
+  .ranking-header-contents {
+    gap: 5rem;
+    padding-right: 0;
+  }
+
+  .ranking-content {
+    padding: 1.5rem 2rem;
+  }
+
+  .ranking-name {
+    font-size: 1.5rem;
+  }
+
+  .ranking-img {
+    width: 4rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 2rem;
+  }
+
+  .footer-ends hr {
+    margin: 0 2rem;
+  }
+
+  .footer-ends p {
+    padding-left: 2rem;
+  }
+
+  .cta-forms {
+    width: 100%;
+    max-width: 42rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .ranking-title {
+    font-size: 3.6rem;
+  }
+
+  .ranking-description {
+    font-size: 1.8rem;
+  }
+
+  .ranking-change,
+  .ranking-value,
+  .ranking-header-contents p:first-child,
+  .ranking-header-contents p:nth-child(2) {
+    display: none;
+  }
+
+  .ranking-header {
+    margin: 0 2rem 2rem;
+    justify-content: space-between;
+  }
+
+  .ranking-header-contents {
+    gap: 0;
+  }
+
+  .ranking-content {
+    padding: 1.5rem;
+  }
+
+  .ranking-collection {
+    gap: 0.8rem;
+  }
+
+  .ranking-img {
+    width: 3.5rem;
+  }
+
+  .ranking-position {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .ranking-name {
+    font-size: 1.4rem;
+  }
+
+  .ranking-eth {
+    font-size: 1.2rem;
+  }
+
+  .footer-content {
+    padding: 3rem 2rem;
+  }
+
+  .footer-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .cta-forms {
+    width: 100%;
+  }
+
+  .cta-forms input {
+    font-size: 1.6rem;
+  }
+}
