@@ -641,3 +641,46 @@ body {
     font-size: 1.4rem;
   }
 }
+
+/* Default */
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .header {
+    position: relative;
+  }
+
+  .menu {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .main-nav-list {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #3b3b3b;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+
+    display: none;
+    z-index: 999;
+  }
+
+  .main-nav-list.active {
+    display: flex;
+  }
+
+  .main-nav-links {
+    width: 80%;
+    justify-content: center;
+  }
+}
