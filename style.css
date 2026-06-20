@@ -684,21 +684,6 @@ footer {
   }
 }
 
-.main-nav-list {
-  display: none;
-}
-
-.menu {
-  display: block;
-}
-
-/* Default */
-.main-nav-list {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
 /* Mobile */
 @media screen and (max-width: 480px) {
   .header {
